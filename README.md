@@ -65,8 +65,4 @@ Once an attacker decrypts a message, he knows OTP2 and can upload his malformed 
 Such malformed configuration can allow joining the private network and use the network's services like `egress`.
 2. **EdgeVPN uses only 10^9 different pubsub channels.** 
 So an attacker can subscribe to 10^9 pubsub channels up front.
-Sounds like a huge number, but it can be done with a cluster of 1000 VMs, 10^6 channels per VM. 
-
-
-
-Feel free to reach out to me at aleksej.paschenko@gmail.com
+ 
